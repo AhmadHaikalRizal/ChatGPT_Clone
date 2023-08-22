@@ -76,7 +76,6 @@ const copyResponse = (copyBtn) => {
 };
 
 const showTypingAnimation = () => {
-  // Display the typing animation and call the getChatResponse function
   const html = `<div class="chat-content">
                     <div class="chat-details">
                         <img src="images/chatbot.jpg" alt="chatbot-img">
