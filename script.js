@@ -1,11 +1,12 @@
 const chatInput = document.querySelector("#chat-input");
+const chatInput = document.querySelector("#chat-input");
 const sendButton = document.querySelector("#send-btn");
 const chatContainer = document.querySelector(".chat-container");
 const themeButton = document.querySelector("#theme-btn");
 const deleteButton = document.querySelector("#delete-btn");
 
 let userText = null;
-const API_KEY = "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";
+const API_KEY = "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";
 
 const loadDataFromLocalstorage = () => {
   const themeColor = localStorage.getItem("themeColor");
